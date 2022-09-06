@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundButtom
+    uniqueID: 1534304709
+    locked: 0
+  - name: GroundMiddle
+    uniqueID: 1315359297
+    locked: 0
+  - name: GroundTop
+    uniqueID: 4171156635
+    locked: 0
+  - name: Stff1
+    uniqueID: 1351531083
+    locked: 0
+  - name: Stff2
+    uniqueID: 375369303
+    locked: 0
+  - name: Dig
+    uniqueID: 1964984369
+    locked: 0
+  - name: Water
+    uniqueID: 2841357157
+    locked: 0
+  - name: Instance
+    uniqueID: 1361611329
+    locked: 0
+  - name: Instance
+    uniqueID: 1102012223
+    locked: 0
+  - name: Front1
+    uniqueID: 2003364415
+    locked: 0
+  - name: Front2
+    uniqueID: 2930080613
+    locked: 0
+  - name: Collision
+    uniqueID: 3942789283
+    locked: 0
