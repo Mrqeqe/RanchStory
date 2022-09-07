@@ -140,9 +140,16 @@ SpriteAtlas:
   - {fileID: 1137832957, guid: 7d9d71e0d8f72449fa71187f75a87efb, type: 3}
   - {fileID: -851346465, guid: 7d9d71e0d8f72449fa71187f75a87efb, type: 3}
   - {fileID: 21300000, guid: 8ab5351114a744733b5fb2c5c757d2dd, type: 3}
+  - {fileID: -651256984, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
   - {fileID: -1904258649, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
   - {fileID: 389204487, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
-  - {fileID: -651256984, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: -1320173158, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: -2101187928, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: -1832842800, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: -539710210, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: 801215717, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: 1824650653, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
+  - {fileID: -1080922065, guid: 7f1ec8314d44949f29dbb2b0651eccf3, type: 3}
   - {fileID: 21300000, guid: 6deecea147de24e288cfc834ea7dc746, type: 3}
   - {fileID: -1559478326, guid: 4519e3023f2944cecb7ed510f5d6bfdb, type: 3}
   - {fileID: -1198810418, guid: 4519e3023f2944cecb7ed510f5d6bfdb, type: 3}
@@ -2440,9 +2447,16 @@ SpriteAtlas:
   - BaseMap1@20_292
   - BaseMap1@20_291
   - House_02_Door
-  - BaseMap1@20_327
-  - BaseMap1@20_326
-  - BaseMap1@20_328
+  - Collisions@20_3
+  - Collisions@20_2
+  - Collisions@20_1
+  - Collisions@20_0
+  - Collisions@20_7
+  - Collisions@20_6
+  - Collisions@20_5
+  - Collisions@20_4
+  - Collisions@20_9
+  - Collisions@20_8
   - Box_PinkRadishSeed
   - Hotel_Flower@20_118
   - Hotel_Flower@20_119
