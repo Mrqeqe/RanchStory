@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     //存储速度
     public float speed;
     //刚体
-    public Rigidbody2D player_rb2D;
+    private Rigidbody2D player_rb2D;
 
     //获取组件
     private void Awake()

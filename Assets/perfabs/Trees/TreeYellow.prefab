@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8916602116993930538}
   - component: {fileID: 8916602116993930539}
+  - component: {fileID: 8037500647253681269}
   m_Layer: 0
   m_Name: Tree_Trunk
   m_TagString: Untagged
@@ -84,6 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &8037500647253681269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8916602116993930549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84518c42271924249b50e8f958063632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8916602117259410191
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +106,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8916602117259410188}
+  - component: {fileID: 2696163115554874181}
+  - component: {fileID: 7307440784366226358}
   m_Layer: 0
   m_Name: TreeYellow
   m_TagString: Untagged
@@ -117,6 +132,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2696163115554874181
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8916602117259410191}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.10496092, y: 0.50940466}
+  serializedVersion: 2
+  m_Radius: 0.87768865
+--- !u!58 &7307440784366226358
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8916602117259410191}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.17997599, y: 5.376426}
+  serializedVersion: 2
+  m_Radius: 3.9491448
 --- !u!1 &8916602118464602046
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,6 +175,7 @@ GameObject:
   - component: {fileID: 8916602118464602047}
   - component: {fileID: 8916602118464602044}
   - component: {fileID: 8916602118464602045}
+  - component: {fileID: 4557032741805116821}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -222,3 +270,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4557032741805116821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8916602118464602046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84518c42271924249b50e8f958063632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
