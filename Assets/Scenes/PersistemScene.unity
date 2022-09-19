@@ -531,6 +531,7 @@ GameObject:
   - component: {fileID: 674196959}
   - component: {fileID: 674196960}
   - component: {fileID: 674196963}
+  - component: {fileID: 674196964}
   - component: {fileID: 674196962}
   - component: {fileID: 674196961}
   m_Layer: 0
@@ -640,6 +641,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17e4723839c70d244ab4e1289c99a201, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &674196964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674196957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb22dd124506b0047bcbfb541b53651a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1645463422
@@ -925,3 +938,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1 &2076747744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076747746}
+  - component: {fileID: 2076747745}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2076747745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076747744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d33af7e7eaf15d469f0b1796e18e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemDataListSo: {fileID: 11400000, guid: 5e140a7de7b6b0d4f87b9b199488d9ad, type: 2}
+  PlayerBag: {fileID: 11400000, guid: 7085d316e8786aa4a806aee76862ed1c, type: 2}
+--- !u!4 &2076747746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076747744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
